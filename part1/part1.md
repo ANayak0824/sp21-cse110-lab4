@@ -21,7 +21,16 @@ part 1b
 
 4. It returns 50, 100, 150 -> returns the array but with all the stuff in it divided by two and rounded.
 
-5. It prints out 3 because it does the same thing as one but since we don't attempt to anything with the let types, nothing changes
+5. Error because the let type is limited to the scope of the for loop
 
-6. 
+6. Error because the let type is limited to the scope of the for loop
 
+7. Since the finalPrice is actually within the scope of the entire method, the finalPrice behaves as normal and returns 150
+
+8. Returns the discounted array because the let finalPrice is pushed to the array so the array saves the numbers and thus, the method does its job
+
+9. Error because the let type is limited to the scope of the for loop
+
+10. returns 3 since the constant variable acts as normal and returns the length of the array
+
+11. the const keyword actually allows for changes to properties, so the array having values pushed to it is fine as long as it doesn't set it something else entirely. Thus, the array behaves as normal and returns the normal discounted prices.
