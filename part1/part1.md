@@ -36,7 +36,12 @@ part 1b
 11. the const keyword actually allows for changes to properties, so the array having values pushed to it is fine as long as it doesn't set it something else entirely. Thus, the array behaves as normal and returns the normal discounted prices.
 
 12A. student.name
+
 12B. student["Grad Year"]
+
 12C. student.greeting()
+
 12D. student['Favorite Teacher'].name
+
 12E. student.courseLoad[0]
+
